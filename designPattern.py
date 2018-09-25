@@ -184,7 +184,7 @@ class GenderCounter(Visitor):
         self.__femaleDog = 0
 
     def visit(self, data):
-        if isinstance(data. Cat):
+        if isinstance(data, Cat):
             if data.isMale():
                 self.__maleCat += 1
             else:
